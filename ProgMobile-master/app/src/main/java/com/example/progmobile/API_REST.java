@@ -7,7 +7,7 @@ import retrofit2.http.GET;
 
 public interface API_REST {
 
-    String URL = " ";
+    String URL = "https://raw.githubusercontent.com/awallone/AndroidStudio/master/ProgMobile-master/app/";
 
     @GET("dogs_data.json")
     Call<List<LeagueOfLegends>> GetLeagueOfLegends();
