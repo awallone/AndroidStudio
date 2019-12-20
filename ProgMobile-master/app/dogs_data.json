@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Lux",
+    "age": "17 ans",
+    "ville": "Demacia"
+  },
+  {
+    "name": "Garen",
+    "age": "25 ans",
+    "ville":"Demacia"
+  },
+  {
+    "name": "Jarvan",
+    "age": "56 ans",
+    "ville":"Demacia"
+  },
+  {
+    "name": "Jhin",
+    "age": "44 ans",
+    "ville":"Piltover"
+  },
+  {
+    "name": "Teemo",
+    "age": "8 ans",
+    "ville":"Gangman"
+  },
+  {
+    "name": "Veigar",
+    "age": "200 ans",
+    "ville":"Gangman"
+  },
+  {
+    "name": "Tristana",
+    "age": "24 ans",
+    "race": "Ionia"
+  },
+  {
+    "name": "Vel'Koz",
+    "age": "85 ans",
+    "ville":"Le Néant"
+  }
+]
