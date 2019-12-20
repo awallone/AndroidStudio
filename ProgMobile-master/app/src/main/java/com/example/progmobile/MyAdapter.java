@@ -1,20 +1,16 @@
 package com.example.progmobile;
 
-import android.content.Context;
-import android.graphics.Typeface;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import androidx.annotation.NonNull;
-import androidx.recyclerview.widget.RecyclerView;
-
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.Holder> {
     private List<LeagueOfLegends> values;
@@ -66,6 +62,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.Holder> {
         holder.txtHeader.setText(lol.getName());
         holder.txtSecond.setText(lol.getAge());
         holder.txtThird.setText(lol.getVille());
+        Picasso.get().load(lol.getImage()).into(holder.imageView);
 
     }
 

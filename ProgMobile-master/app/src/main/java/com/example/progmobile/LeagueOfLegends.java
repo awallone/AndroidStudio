@@ -1,13 +1,7 @@
 package com.example.progmobile;
 
-import android.graphics.Picture;
-import android.media.Image;
-import android.net.LinkAddress;
-import android.widget.ImageView;
-
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
-import com.squareup.picasso.Picasso;
 
 public class LeagueOfLegends {
 
@@ -24,11 +18,13 @@ public class LeagueOfLegends {
     @Expose
     private String image;
 
+
+
     public String getImage(){
         return image;
     }
-    public void setImage(String image){
-        this.image=image;
+    public void setImage(String image) {
+        this.image = image;
     }
 
     public String getName(){
