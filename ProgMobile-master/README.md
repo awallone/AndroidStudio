@@ -20,5 +20,5 @@ A cause des mise a jour constante du fonctionnement de GoogleMap je ne suis pas 
 la localisation automatique.
 
   - Fragment 3: Youtube
-J'ai appris à manipuler la fonction WebView (je reconnais que c'est de la triche) et grâce à cette fonction j'affiche Youtube.
+J'ai appris à manipuler la fonction WebView et grâce à cette fonction j'affiche Youtube.
 
